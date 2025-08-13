@@ -1,0 +1,13 @@
+#index:
+#    path: /
+#    controller: App\Controller\DefaultController::index
+
+
+#controllers:
+#    resource: ../src/Controller/
+#    type: attribute
+
+restaurant:
+    path: /restaurant
+    controller: App\Controller\RestaurantController::index
+
